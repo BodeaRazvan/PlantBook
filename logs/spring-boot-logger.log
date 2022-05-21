@@ -1,0 +1,204 @@
+2022-05-22 00:20:29,209 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-22 00:20:29,241 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-05-22 00:20:29,241 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-05-22 00:58:03,351 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PlantBookApplication using Java 18 on DESKTOP-BKF561S with PID 18144 (C:\GitHub Repositories\SD\PlantBook\target\classes started by razvi in C:\GitHub Repositories\SD\PlantBook)
+2022-05-22 00:58:03,351 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-22 00:58:03,400 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\razvi\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/razvi/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/razvi/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/razvi/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
+2022-05-22 00:58:03,400 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-22 00:58:03,400 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-22 00:58:04,418 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-22 00:58:04,502 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 75 ms. Found 4 JPA repository interfaces.
+2022-05-22 00:58:05,605 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-05-22 00:58:05,620 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-22 00:58:05,620 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-22 00:58:05,620 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-22 00:58:05,721 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-22 00:58:05,721 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2321 ms
+2022-05-22 00:58:06,037 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-22 00:58:06,106 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-22 00:58:06,322 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-22 00:58:06,438 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-05-22 00:58:06,823 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-05-22 00:58:06,839 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-22 00:58:07,911 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-22 00:58:07,942 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-22 00:58:08,412 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-22 00:58:08,613 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 00:58:08,629 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 00:58:08,675 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 00:58:08,691 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 00:58:08,713 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 00:58:08,713 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 00:58:08,729 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 00:58:08,729 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 00:58:08,729 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 00:58:08,829 WARN org.springframework.security.config.annotation.web.builders.WebSecurity [restartedMain] You are asking Spring Security to ignore Or [Ant [pattern='/'], Ant [pattern='/login'], Ant [pattern='/register']]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-22 00:58:08,829 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will not secure Or [Ant [pattern='/'], Ant [pattern='/login'], Ant [pattern='/register']]
+2022-05-22 00:58:08,861 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f6e22f5, org.springframework.security.web.context.SecurityContextPersistenceFilter@318a3630, org.springframework.security.web.header.HeaderWriterFilter@75bb629f, org.springframework.web.filter.CorsFilter@57f45bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3600e198, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1342a836, com.example.plantbook.security.jwt.JwtAuthenticationFilter@20b6b823, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f51887, org.springframework.security.web.session.SessionManagementFilter@8ccb8f5, org.springframework.security.web.access.ExceptionTranslationFilter@5c8f33ce, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66fb3a8c]
+2022-05-22 00:58:09,362 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-22 00:58:09,393 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-22 00:58:09,415 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-22 00:58:09,446 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PlantBookApplication in 6.844 seconds (JVM running for 8.642)
+2022-05-22 01:41:45,005 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-22 01:41:45,036 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-05-22 01:41:45,052 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-05-22 01:42:02,818 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PlantBookApplication using Java 18 on DESKTOP-BKF561S with PID 16764 (C:\GitHub Repositories\SD\PlantBook\target\classes started by razvi in C:\GitHub Repositories\SD\PlantBook)
+2022-05-22 01:42:02,818 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-22 01:42:03,184 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\razvi\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/razvi/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/razvi/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/razvi/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
+2022-05-22 01:42:03,184 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-22 01:42:03,184 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-22 01:42:04,544 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-22 01:42:04,629 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 74 ms. Found 4 JPA repository interfaces.
+2022-05-22 01:42:05,879 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-05-22 01:42:05,897 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-22 01:42:05,897 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-22 01:42:05,897 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-22 01:42:06,050 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-22 01:42:06,050 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2866 ms
+2022-05-22 01:42:06,545 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-22 01:42:06,656 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-22 01:42:06,960 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-22 01:42:07,132 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-05-22 01:42:07,562 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-05-22 01:42:07,593 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-22 01:42:08,665 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-22 01:42:08,681 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-22 01:42:09,166 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-22 01:42:09,413 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 01:42:09,428 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 01:42:09,482 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 01:42:09,497 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 01:42:09,513 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 01:42:09,513 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 01:42:09,529 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 01:42:09,529 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 01:42:09,529 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 01:42:09,645 WARN org.springframework.security.config.annotation.web.builders.WebSecurity [restartedMain] You are asking Spring Security to ignore Or [Ant [pattern='/'], Ant [pattern='/login'], Ant [pattern='/register']]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-22 01:42:09,645 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will not secure Or [Ant [pattern='/'], Ant [pattern='/login'], Ant [pattern='/register']]
+2022-05-22 01:42:09,714 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30ac2aa5, org.springframework.security.web.context.SecurityContextPersistenceFilter@57ae5d17, org.springframework.security.web.header.HeaderWriterFilter@28854d29, org.springframework.web.filter.CorsFilter@447c6f13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c295648, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4aa1b0d8, com.example.plantbook.security.jwt.JwtAuthenticationFilter@6705814d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59f449bb, org.springframework.security.web.session.SessionManagementFilter@5cc93689, org.springframework.security.web.access.ExceptionTranslationFilter@388bc896, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66e3fcf]
+2022-05-22 01:42:10,418 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-22 01:42:10,459 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-22 01:42:10,497 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-22 01:42:10,509 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PlantBookApplication in 12.019 seconds (JVM running for 15.11)
+2022-05-22 01:42:49,422 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-22 01:42:49,422 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-05-22 01:42:49,422 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-05-22 01:42:49,567 INFO com.example.plantbook.controller.LoginController [http-nio-8080-exec-2] Login controller request login user
+2022-05-22 01:42:50,224 INFO com.example.plantbook.service.UserService [http-nio-8080-exec-2] Finding user with username Razvan
+2022-05-22 01:42:51,321 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-7] getPosts()
+2022-05-22 01:42:51,321 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-9] getPlants()
+2022-05-22 01:42:51,321 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-8] getProfilePicture()
+2022-05-22 01:42:51,321 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-10] getLoggedInUser()
+2022-05-22 01:42:51,331 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-7] Getting posts
+2022-05-22 01:42:51,331 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-9] Getting plants for user with id 1
+2022-05-22 01:42:51,339 INFO com.example.plantbook.service.PictureService [http-nio-8080-exec-8] Getting profile picture
+2022-05-22 01:42:53,156 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-2] getUserPlants()
+2022-05-22 01:42:53,156 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-2] Getting plants for user with id 1
+2022-05-22 01:42:57,209 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-7] getPlants()
+2022-05-22 01:42:57,210 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-7] Getting plants for user with id 1
+2022-05-22 01:42:57,212 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-10] getLoggedInUser()
+2022-05-22 01:42:57,214 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-9] getProfilePicture()
+2022-05-22 01:42:57,216 INFO com.example.plantbook.service.PictureService [http-nio-8080-exec-9] Getting profile picture
+2022-05-22 01:42:57,223 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-8] getPosts()
+2022-05-22 01:42:57,224 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-8] Getting posts
+2022-05-22 01:42:58,321 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-2] getAllPlants()
+2022-05-22 01:42:58,322 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-2] Getting all plants
+2022-05-22 01:43:00,265 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-9] getPlantById()
+2022-05-22 01:43:00,265 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-9] Getting plant with id 5
+2022-05-22 01:43:03,166 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-7] getAllPlants()
+2022-05-22 01:43:03,166 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-7] Getting all plants
+2022-05-22 01:43:10,874 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-6] getPosts()
+2022-05-22 01:43:10,874 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-4] getPlants()
+2022-05-22 01:43:10,876 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-6] Getting posts
+2022-05-22 01:43:10,876 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-4] Getting plants for user with id 1
+2022-05-22 01:43:10,876 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-9] getLoggedInUser()
+2022-05-22 01:43:10,877 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-10] getProfilePicture()
+2022-05-22 01:43:10,877 INFO com.example.plantbook.service.PictureService [http-nio-8080-exec-10] Getting profile picture
+2022-05-22 01:43:13,000 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-1] getProfilePicture()
+2022-05-22 01:43:13,000 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-3] getLoggedInUser()
+2022-05-22 01:43:13,000 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-7] getPosts()
+2022-05-22 01:43:13,000 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-8] getPlants()
+2022-05-22 01:43:13,001 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-7] Getting posts
+2022-05-22 01:43:13,001 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-8] Getting plants for user with id 1
+2022-05-22 01:43:13,001 INFO com.example.plantbook.service.PictureService [http-nio-8080-exec-1] Getting profile picture
+2022-05-22 01:43:14,307 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-5] getPosts()
+2022-05-22 01:43:14,308 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-5] Getting posts
+2022-05-22 01:43:29,937 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-8] getPosts()
+2022-05-22 01:43:29,937 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-8] Getting posts
+2022-05-22 01:43:29,937 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-6] getLoggedInUser()
+2022-05-22 01:43:29,937 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-5] getPlants()
+2022-05-22 01:43:29,937 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-9] getProfilePicture()
+2022-05-22 01:43:29,940 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-5] Getting plants for user with id 1
+2022-05-22 01:43:29,940 INFO com.example.plantbook.service.PictureService [http-nio-8080-exec-9] Getting profile picture
+2022-05-22 01:43:32,692 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-10] getAllPosts()
+2022-05-22 01:43:32,693 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-10] Getting all posts
+2022-05-22 01:43:40,515 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-9] getUserPlants()
+2022-05-22 01:43:40,515 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-9] Getting plants for user with id 6
+2022-05-22 01:43:42,331 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-5] getUserPosts()
+2022-05-22 01:43:42,331 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-5] Getting user posts
+2022-05-22 01:43:45,272 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-10] getPosts()
+2022-05-22 01:43:45,273 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-10] Getting posts
+2022-05-22 01:43:46,213 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-7] getAllPosts()
+2022-05-22 01:43:46,214 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-7] Getting all posts
+2022-05-22 01:43:48,293 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-3] getAllPlants()
+2022-05-22 01:43:48,294 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-3] Getting all plants
+2022-05-22 01:43:55,869 INFO com.example.plantbook.controller.LoginController [http-nio-8080-exec-8] Login controller request login user
+2022-05-22 01:43:55,979 INFO com.example.plantbook.service.UserService [http-nio-8080-exec-8] Finding user with username moderator
+2022-05-22 01:43:56,917 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-4] getPlants()
+2022-05-22 01:43:56,917 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-6] getLoggedInUser()
+2022-05-22 01:43:56,917 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-7] getPosts()
+2022-05-22 01:43:56,918 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-4] Getting plants for user with id 4
+2022-05-22 01:43:56,918 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-7] Getting posts
+2022-05-22 01:43:56,918 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-3] getProfilePicture()
+2022-05-22 01:43:56,920 INFO com.example.plantbook.service.PictureService [http-nio-8080-exec-3] Getting profile picture
+2022-05-22 01:43:58,554 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-9] getPosts()
+2022-05-22 01:43:58,555 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-9] Getting posts
+2022-05-22 01:43:59,403 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-1] getLoggedInUser()
+2022-05-22 01:43:59,403 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-2] getProfilePicture()
+2022-05-22 01:43:59,403 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-8] getPosts()
+2022-05-22 01:43:59,403 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-5] getPlants()
+2022-05-22 01:43:59,404 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-8] Getting posts
+2022-05-22 01:43:59,404 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-5] Getting plants for user with id 4
+2022-05-22 01:43:59,410 INFO com.example.plantbook.service.PictureService [http-nio-8080-exec-2] Getting profile picture
+2022-05-22 01:44:04,712 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-9] getAllPosts()
+2022-05-22 01:44:04,713 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-9] Getting all posts
+2022-05-22 01:44:12,737 INFO com.example.plantbook.controller.LoginController [http-nio-8080-exec-5] Login controller request login user
+2022-05-22 01:44:12,845 INFO com.example.plantbook.service.UserService [http-nio-8080-exec-5] Finding user with username admin
+2022-05-22 01:44:14,130 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-7] getLoggedInUser()
+2022-05-22 01:44:14,129 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-9] getPlants()
+2022-05-22 01:44:14,129 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-10] getPosts()
+2022-05-22 01:44:14,131 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-9] Getting plants for user with id 2
+2022-05-22 01:44:14,131 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-10] Getting posts
+2022-05-22 01:44:14,133 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-1] getProfilePicture()
+2022-05-22 01:44:14,135 INFO com.example.plantbook.service.PictureService [http-nio-8080-exec-1] Getting profile picture
+2022-05-22 01:44:17,979 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-5] getAllPosts()
+2022-05-22 01:44:17,980 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-5] Getting all posts
+2022-05-22 01:44:22,346 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-10] getAllPlants()
+2022-05-22 01:44:22,347 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-10] Getting all plants
+2022-05-22 01:47:10,138 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-7] getLoggedInUser()
+2022-05-22 01:47:10,138 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-8] getPosts()
+2022-05-22 01:47:10,139 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-8] Getting posts
+2022-05-22 01:47:10,141 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-4] getPlants()
+2022-05-22 01:47:10,142 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-4] Getting plants for user with id 2
+2022-05-22 01:47:10,149 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-3] getProfilePicture()
+2022-05-22 01:47:10,150 INFO com.example.plantbook.service.PictureService [http-nio-8080-exec-3] Getting profile picture
+2022-05-22 01:47:11,999 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-1] getProfilePicture()
+2022-05-22 01:47:11,999 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-2] getLoggedInUser()
+2022-05-22 01:47:11,999 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-10] getPosts()
+2022-05-22 01:47:12,000 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-10] Getting posts
+2022-05-22 01:47:12,000 INFO com.example.plantbook.service.PictureService [http-nio-8080-exec-1] Getting profile picture
+2022-05-22 01:47:12,002 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-9] getPlants()
+2022-05-22 01:47:12,002 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-9] Getting plants for user with id 2
+2022-05-22 01:47:21,191 INFO com.example.plantbook.controller.LoginController [http-nio-8080-exec-3] Login controller request login user
+2022-05-22 01:47:21,309 INFO com.example.plantbook.service.UserService [http-nio-8080-exec-3] Finding user with username Razvan
+2022-05-22 01:47:23,000 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-7] getPosts()
+2022-05-22 01:47:23,000 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-7] Getting posts
+2022-05-22 01:47:23,000 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-8] getPlants()
+2022-05-22 01:47:23,000 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-6] getProfilePicture()
+2022-05-22 01:47:23,000 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-5] getLoggedInUser()
+2022-05-22 01:47:23,003 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-8] Getting plants for user with id 1
+2022-05-22 01:47:23,003 INFO com.example.plantbook.service.PictureService [http-nio-8080-exec-6] Getting profile picture
+2022-05-22 01:47:25,209 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-3] getAllPlants()
+2022-05-22 01:47:25,209 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-3] Getting all plants
+2022-05-22 01:47:27,594 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-1] getAllPosts()
+2022-05-22 01:47:27,594 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-1] Getting all posts
