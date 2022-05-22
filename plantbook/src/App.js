@@ -28,6 +28,7 @@ import BuyPlant from "./user/BuyPlant";
 import SeeUserPlants from "./user/SeeUserPlants";
 import SeeUserPosts from "./user/SeeUserPosts";
 import SeeUserPage from "./user/SeeUserPage";
+import CutePage from "./user/CutePage";
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
             <Route path="/seeUserPage" element={<SeeUserPage/>}/>
             <Route path="/seeUserPosts" element={<SeeUserPosts/>}/>
             <Route path="/seeUserPlants" element={<SeeUserPlants/>}/>
+            <Route path="/cutePage" element={<CutePage/>}/>
         </Routes>
     </Router>
   );

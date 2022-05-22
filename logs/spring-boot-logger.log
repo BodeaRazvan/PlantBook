@@ -202,3 +202,61 @@
 2022-05-22 01:47:25,209 INFO com.example.plantbook.service.PlantService [http-nio-8080-exec-3] Getting all plants
 2022-05-22 01:47:27,594 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-1] getAllPosts()
 2022-05-22 01:47:27,594 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-1] Getting all posts
+2022-05-22 01:53:54,415 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-8] getUserPosts()
+2022-05-22 01:53:54,415 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-8] Getting user posts
+2022-05-22 01:53:56,517 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-3] getPosts()
+2022-05-22 01:53:56,518 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-3] Getting posts
+2022-05-22 01:53:59,982 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-1] getAllPosts()
+2022-05-22 01:53:59,983 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-1] Getting all posts
+2022-05-22 01:57:26,114 INFO com.example.plantbook.controller.UserController [http-nio-8080-exec-9] getAllPosts()
+2022-05-22 01:57:26,115 INFO com.example.plantbook.service.PostService [http-nio-8080-exec-9] Getting all posts
+2022-05-22 01:58:42,601 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-22 01:58:42,616 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-05-22 01:58:42,648 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-05-22 20:40:14,227 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PlantBookApplication using Java 18 on DESKTOP-BKF561S with PID 20696 (C:\GitHub Repositories\SD\PlantBook\target\classes started by razvi in C:\GitHub Repositories\SD\PlantBook)
+2022-05-22 20:40:14,227 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-22 20:40:14,298 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\razvi\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/razvi/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/razvi/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/razvi/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
+2022-05-22 20:40:14,298 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-22 20:40:14,298 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-22 20:40:15,728 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-22 20:40:15,843 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 92 ms. Found 4 JPA repository interfaces.
+2022-05-22 20:40:16,884 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-05-22 20:40:16,900 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-22 20:40:16,900 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-22 20:40:16,900 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-22 20:40:17,031 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-22 20:40:17,031 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2733 ms
+2022-05-22 20:40:17,363 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-22 20:40:17,435 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-22 20:40:17,664 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-22 20:40:17,786 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-05-22 20:40:18,250 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-05-22 20:40:18,287 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-22 20:40:19,291 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-22 20:40:19,291 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-22 20:40:19,754 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-22 20:40:19,985 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 20:40:20,008 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 20:40:20,055 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 20:40:20,070 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 20:40:20,092 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 20:40:20,092 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 20:40:20,108 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 20:40:20,108 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 20:40:20,108 INFO com.example.plantbook.logger.MyLogger [restartedMain] MyLogger instance created
+2022-05-22 20:40:20,193 WARN org.springframework.security.config.annotation.web.builders.WebSecurity [restartedMain] You are asking Spring Security to ignore Or [Ant [pattern='/'], Ant [pattern='/login'], Ant [pattern='/register']]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-22 20:40:20,193 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will not secure Or [Ant [pattern='/'], Ant [pattern='/login'], Ant [pattern='/register']]
+2022-05-22 20:40:20,255 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16aefda0, org.springframework.security.web.context.SecurityContextPersistenceFilter@194aaabf, org.springframework.security.web.header.HeaderWriterFilter@12ee900e, org.springframework.web.filter.CorsFilter@59d25a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49fcad93, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71d020c4, com.example.plantbook.security.jwt.JwtAuthenticationFilter@bc7ce62, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3770ff19, org.springframework.security.web.session.SessionManagementFilter@1a8ddf72, org.springframework.security.web.access.ExceptionTranslationFilter@52785c1b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f3e38d8]
+2022-05-22 20:40:20,772 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-22 20:40:20,794 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-22 20:40:20,810 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-22 20:40:20,826 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PlantBookApplication in 7.371 seconds (JVM running for 9.283)
+2022-05-22 20:40:40,388 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-22 20:40:40,388 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-05-22 20:40:40,388 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-05-22 20:40:40,512 INFO com.example.plantbook.controller.LoginController [http-nio-8080-exec-3] Login controller request login user
+2022-05-22 20:40:41,098 INFO com.example.plantbook.service.UserService [http-nio-8080-exec-3] Finding user with username Razvan
+2022-05-22 20:52:24,681 INFO com.example.plantbook.controller.LoginController [http-nio-8080-exec-5] Login controller request login user
+2022-05-22 20:52:25,173 INFO com.example.plantbook.service.UserService [http-nio-8080-exec-5] Finding user with username Razvan
+2022-05-22 21:33:13,283 INFO com.example.plantbook.controller.LoginController [http-nio-8080-exec-8] Login controller request login user
+2022-05-22 21:33:13,623 INFO com.example.plantbook.service.UserService [http-nio-8080-exec-8] Finding user with username Razvan

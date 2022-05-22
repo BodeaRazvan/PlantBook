@@ -22,6 +22,7 @@ function UserPage() {
                 <Link to = "/MyProfile"> My Profile</Link>
                 <Link to = "/userViewAllPosts"> All Posts </Link>
                 <Link to = "/viewAllPlants"> All Plants </Link>
+                <Link to = "/cutePage"> Cute Page</Link>
             </header>
         </div>
     );
